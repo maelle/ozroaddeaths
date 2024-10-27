@@ -17,3 +17,17 @@
       [13] "gender"            "age"               "date"             
       [16] "date_time"        
 
+# Data frame has correct column classes
+
+    Code
+      classes(dat_road_fatalities)
+    Output
+               crash_id             month              year           weekday 
+              "numeric"         "numeric"         "numeric"       "character" 
+                   time             state        crash_type               bus 
+         "hms/difftime"       "character"       "character"       "character" 
+      heavy_rigid_truck articulated_truck       speed_limit         road_user 
+            "character"       "character"         "numeric"       "character" 
+                 gender               age              date         date_time 
+            "character"         "numeric"            "Date"  "POSIXct/POSIXt" 
+

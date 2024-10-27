@@ -7,3 +7,7 @@ test_that("test that the fatal crash dimensions are stable", {
 test_that("test names of fatal crash are the same", {
   expect_snapshot(names(dat_road_fatalities))
 })
+
+test_that("Data frame has correct column classes", {
+  expect_snapshot(classes(dat_road_fatalities))
+})
