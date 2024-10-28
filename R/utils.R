@@ -94,3 +94,18 @@ read_bitre_xlsx_raw <- function(group = "fatal_crashes") {
   readxl::read_xlsx(xlsx_file, sheet = 2, skip = 4) |>
     dplyr::mutate(Time = hms::as_hms(format(Time, "%H:%M:%S")))
 }
+
+#' Get the classes of columns in a data frame.
+#' @param data_frame A data frame.
+#' @return A character vector of column classes.
+#' @noRd
+classes <- function(data_frame) {
+  purrr::map_chr(data_frame, function(x) {
+    class_output <- class(x)
+    if (length(class_output) > 1) {
+      paste(class_output, collapse = "/")
+    } else {
+      class_output
+    }
+  })
+}
