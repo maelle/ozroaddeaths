@@ -8,7 +8,9 @@ Authors@R: c(
   person("Steph", "de Silva", , "steph@rex-analytics.com", role = c("aut")),
   person("Adam","Gruer", , "adamgruer@icloud.com", role = c("aut")),
   person("Mathew","Ling", , "m.ling@deakin.edu.au", role = c("ctb")),
-  person("Michael","Sumner", , "mdsumner@gmail.com", role = c("ctb"))
+  person("Michael","Sumner", , "mdsumner@gmail.com", role = c("ctb")),
+  person("Johann", "Wagner", , "johann.wagner@gmail.com", role = c("ctb")),
+  person("Patrick", "Li", , "weihao.li@monash.edu", role = c("ctb"))
   )
 Description: ozroaddeaths is a package that pulls data from the Australian Road 
     Deaths Database, run by the Bureau of Infrastructure, Transport and Regional

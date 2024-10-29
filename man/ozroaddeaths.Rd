@@ -37,6 +37,8 @@ Other contributors:
 \itemize{
   \item Mathew Ling \email{m.ling@deakin.edu.au} [contributor]
   \item Michael Sumner \email{mdsumner@gmail.com} [contributor]
+  \item Johann Wagner \email{johann.wagner@gmail.com} [contributor]
+  \item Patrick Li \email{weihao.li@monash.edu} [contributor]
 }
 
 }
